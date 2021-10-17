@@ -12,16 +12,6 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-/* mettre element sur la même ligne */
-.oneline {
-    white-space: nowrap;
-}
-.oneline>* {
-    display: inline-block;
-    padding: 0 8px;
-}
-/* mettre element sur la même ligne */
-
 header, main, footer {
     padding: 0 20%;
 }
@@ -49,6 +39,24 @@ a {
     color: #2DA7C1;
     text-decoration: none;
 }
+
+/* mettre element sur la même ligne */
+.oneline {
+    white-space: nowrap;
+}
+.oneline>* {
+    display: inline-block;
+}
+
+.oneline img {
+    padding-right: 10px;
+}
+
+.oneline .spacing {
+    padding-left: 10px;
+}
+/* mettre element sur la même ligne */
+
 
 /* ---------------------- ACCUEIL ---------------------- */
 
@@ -94,7 +102,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5.9em;
+    gap: 95px;
 }
 
 /* box connexion - GAUCHE */
@@ -111,15 +119,15 @@ hr {
     border: 0.2px solid #D2D2D2;
 }
 
+/* input sans bordure */
 form, .no-border {
     border: none;
     font-size: 1.4rem; /* 14px */
     font-family: 'Mulish', sans-serif;
 }
 
-/* input sans bordure */
 .no-border {
-    width: 100%;
+    width: 95%;
 }
 
 .email, .idf, .pwd, .oubli, .blue {
@@ -162,7 +170,6 @@ form, .no-border {
 .reset {
     background: transparent;
     border: none;
-    float: right;
     cursor: pointer;
 }
 
