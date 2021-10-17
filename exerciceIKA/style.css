@@ -1,0 +1,199 @@
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* mettre element sur la même ligne */
+.oneline {
+    white-space: nowrap;
+}
+.oneline>* {
+    display: inline-block;
+    padding: 0 0.6rem;
+}
+/* mettre element sur la même ligne */
+
+header, main, footer {
+    padding: 0 20%;
+}
+
+h1 {
+    font-size: 3.5rem; /* 35px */
+}
+
+h2, h3 {
+    color: #2DA7C1;
+    font-size: 2.0rem; /* 20px */
+}
+
+h2 {
+    font-size: 2.4rem; /* 24px */
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    line-height: 1.6;
+}
+
+a {
+    color: #2DA7C1;
+    text-decoration: none;
+}
+
+/* ---------------------- ACCUEIL ---------------------- */
+
+#accueil {
+    height: 100vh;
+    background: url(images/imagefondaccueil.png) no-repeat center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* header */
+
+#accueil header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 90%;
+    padding: 1.0rem;
+}
+
+.bouton-header, .blue {
+    background: #2DA7C1;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.4rem; /* 14px */
+    padding: 1.5rem 3.0rem;
+    cursor: pointer;
+}
+
+/* main */
+
+#accueil main {
+    height: 100%;
+    background: rgba(23, 27, 39, 0.91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.9em;
+}
+
+/* box connexion - GAUCHE */
+
+.connexion, form {
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+hr {
+    border: 0.2px solid #D2D2D2;
+}
+
+form, .no-border {
+    border: none;
+    font-size: 1.4rem; /* 14px */
+    font-family: 'Mulish', sans-serif;
+}
+
+/* input sans bordure */
+.no-border {
+    width: 100%;
+}
+
+.email, .idf, .pwd, .oubli, .blue {
+    line-height: 1.6;
+    margin: 1.8rem 4rem 1.4rem;
+}
+
+.connexion h3 {
+    margin: 1.8rem 4rem 0;
+}
+
+/* Bontons mot de passe */
+.keypad {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1.0rem;
+    margin: 0 4rem;
+}
+
+.num {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #D2D2D2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.num:hover {
+    background: rgba(216, 216, 216, 0.15);
+}
+
+.num:active {
+    background: #D2D2D2;
+}
+
+.reset {
+    background: transparent;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.oubli {
+    width: auto;
+    background: transparent;
+    text-align: right;
+    color: #666565;
+    cursor: pointer;
+}
+
+/* bouton valider */
+.blue {
+    /* margin: 0 2.5em 1.5em; */
+    margin: 0 4rem 3rem;
+    padding: 2.0rem;
+}
+
+/* box prez - DROITE */
+.prez {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* footer */
+
+#accueil footer {
+    background: rgba(6, 9, 20, 0.97);
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ---------------------- ACCUEIL ---------------------- */

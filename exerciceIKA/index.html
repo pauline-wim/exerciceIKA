@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exerciceIKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+    <!---------------------- fonts ---------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body onload="load();">
+    <!---------------------- ACCUEIL ---------------------->
+    <section id="accueil">
+        <!-- HEADER -->
+        <header>
+            <img class="logo" src="images/MARION_IKA-TECHNOLOGY_COULEUR.png" alt="logo ikaconseil">
+            <button class="bouton-header" type="button">Adhérer au portail</button>
+        </header>
+        <!-- HEADER -->
+
+        <!-- MAIN -->
+        <main>
+            <!-- gauche -->
+            <div class="connexion">
+                <h3>Connexion à votre <br> espace personnel</h3>
+                <form action="">
+                    <div class="email">
+                        <input class="no-border" type="email" name="email" id="email" placeholder="Adresse email">
+                        <label for="email">alexandre.reina@ikaconseil.com</label>
+                    </div>
+                    <hr>
+                    <div class="idf">
+                        <input class="no-border" type="text" name="identifiant" id="identifiant" placeholder="Numéro facile.impôts.bj">
+                        <label for="identifiant">Saisissez votre numéro facile.impôts.bj</label>
+                    </div>
+                    <hr>
+                    <div class="pwd">
+                        <input id="password" class="no-border" type="password" name="password" placeholder="Votre mot de passe">
+                        <label for="password">Saisissez votre mot de passe</label>
+                        <input class="reset" type="reset" value="×">
+                    </div>
+                    <div id="keypad" data-role="keypad" class="keypad">
+                        <input id="btn1" class="num" type="button" onclick="input(this);">
+                        <input id="btn2" class="num" type="button" onclick="input(this);">
+                        <input id="btn3" class="num" type="button" onclick="input(this);">
+                        <input id="btn4" class="num" type="button" onclick="input(this);">
+                        <input id="btn5" class="num" type="button" onclick="input(this);">
+                        <input id="btn6" class="num" type="button" onclick="input(this);">
+                        <input id="btn7" class="num" type="button" onclick="input(this);">
+                        <input id="btn8" class="num" type="button" onclick="input(this);">
+                        <input id="btn9" class="num" type="button" onclick="input(this);">
+                        <input id="btn0" class="num" type="button" onclick="input(this);">
+                    </div>
+                    <input class="oubli no-border" type="button" value="Mot de passe oublié ?" onclick="">
+                    <input class="blue" type="submit" value="Valider">
+                </form>
+            </div>
+
+            <!-- droite -->
+            <div class="prez">
+                <div class="oneline">
+                    <img src="images/france-flag-png-xl.png" alt="drapeau FR">
+                    <h2>ikatechnology.impôts.fr</h2>
+                </div>
+
+                <h1>Le portail eServices de la 
+                    Direction Générale des Impôts
+                    de France</h1>
+                
+                <p>Mox dicta finierat, multitudo omnis ad, quae imperator voluit, promptior laudato consilio consensit in pacem ea ratione maxime percita, quod norat expeditionibus</p>
+
+                <a class="oneline" href="">
+                    <h3>Adhérer au portail dès maintenant</h3>
+                    <img src="images/right-arrow.png" alt="→">
+                </a>  
+            </div>
+        </main>
+        <!-- MAIN -->
+
+        <!-- FOOTER -->
+        <footer>
+            <img src="images/MARION_IKA-TECHNOLOGY_COULEUR_blanc-01.png" alt="logo ikaconseil blanc">
+        </footer>
+        <!-- FOOTER -->
+    </section>
+<!---------------------- fin - ACCUEIL ---------------------->
+
+
+<!---------------------- BIENVENUE ---------------------->
+    <section id="bienvenue">
+
+    </section>
+<!---------------------- fin - BIENVENUE ---------------------->
+
+
+<!---------------------- FONCTIONNALITES ---------------------->
+    <section id="fonction">
+
+    </section>
+<!---------------------- fin - FONCTIONNALITES ---------------------->
+
+    <script src="script.js"></script>
+</body>
+</html>
