@@ -18,7 +18,7 @@ body {
 }
 .oneline>* {
     display: inline-block;
-    padding: 0 0.6rem;
+    padding: 0 8px;
 }
 /* mettre element sur la même ligne */
 
@@ -72,7 +72,7 @@ a {
 
 .logo {
     height: 90%;
-    padding: 1.0rem;
+    padding: 10px;
 }
 
 .bouton-header, .blue {
@@ -82,7 +82,7 @@ a {
     border-radius: 3px;
     font-family: 'Mulish', sans-serif;
     font-size: 1.4rem; /* 14px */
-    padding: 1.5rem 3.0rem;
+    padding: 15px 30px;
     cursor: pointer;
 }
 
@@ -124,19 +124,19 @@ form, .no-border {
 
 .email, .idf, .pwd, .oubli, .blue {
     line-height: 1.6;
-    margin: 1.8rem 4rem 1.4rem;
+    margin: 18px 40px 14px;
 }
 
 .connexion h3 {
-    margin: 1.8rem 4rem 0;
+    margin: 18px 40px 0;
 }
 
 /* Bontons mot de passe */
 .keypad {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    gap: 1.0rem;
-    margin: 0 4rem;
+    gap: 10px;
+    margin: 0 40px;
 }
 
 .num {
@@ -176,16 +176,15 @@ form, .no-border {
 
 /* bouton valider */
 .blue {
-    /* margin: 0 2.5em 1.5em; */
-    margin: 0 4rem 3rem;
-    padding: 2.0rem;
+    margin: 0 40px 30px;
+    padding: 20px;
 }
 
 /* box prez - DROITE */
 .prez {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 20px;
 }
 
 /* footer */
