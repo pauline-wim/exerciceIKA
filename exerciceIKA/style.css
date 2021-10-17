@@ -80,6 +80,7 @@ a {
 
 .logo {
     height: 90%;
+    width: auto;
     padding: 10px;
 }
 
