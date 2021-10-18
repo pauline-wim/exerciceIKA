@@ -80,7 +80,6 @@ a {
 
 .logo {
     height: 90%;
-    width: auto;
     object-fit: contain;
     padding: 10px;
 }
@@ -94,6 +93,10 @@ a {
     font-size: 1.4rem; /* 14px */
     padding: 15px 30px;
     cursor: pointer;
+}
+
+.bouton-header:hover, .blue:hover {
+    background: #2ec4e6;
 }
 
 /* main */
@@ -194,6 +197,10 @@ form, .no-border {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+a h3:hover, a img:hover {
+    color: #2ec4e6;
 }
 
 /* footer */
