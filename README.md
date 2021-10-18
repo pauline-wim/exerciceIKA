@@ -6,4 +6,4 @@ C'est plus intutif que les parties du formulaire à remplir par l'utilisateur so
 
 J'ai également ajouté des hover, sur les boutons et liens cliquables.
 
-Mon keypad n'est pas régler...
+J'ai fixé mon problème de keypad, les chiffres sont aléatoires et ne se répètent pas.
